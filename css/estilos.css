@@ -1,0 +1,258 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+     background-color: #D1B34A;
+ }
+
+ #Quem {
+     text-align: center;
+     background-color: #768FA6;
+ }
+
+
+ table {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .tb th img {
+  margin: 0 40px; 
+}
+ .tb2 th img {
+  margin: 0 60px; 
+}
+
+ .arredondar {
+    border-radius: 30px;
+ }
+
+ #Home {
+    background-color: #D1B34A;
+    width: auto;
+  height: 850px;
+  font-family: 'Irish Grover', cursive;
+  font-size: 19px;
+ }
+
+h2 {
+  margin: 0;
+}
+
+ .image {
+  position: absolute;
+}
+
+
+ #mito {
+  background-color: #A64646;
+      width: auto;
+  height: 950px;
+ }
+
+ .mapa {
+    background-color: #A64646;
+  background-image: url(../imagens/mapa.png);
+  background-size: 1300px;
+  background-repeat: no-repeat;
+  background-position: center;
+      width: auto;
+  height: 850px;
+    font-family: 'Just Another Hand', cursive;
+  font-size: 32px;
+ }
+
+ #indicações {
+  background-color: #A64646;
+  width: auto;
+  height: 850px;
+ }
+
+ h1 {
+  font-family: 'Island Moments', sans-serif;
+  font-size: 64px;
+  margin: 0;
+ }
+
+ #menu {
+  background-image: url(../imagens/header.png);
+  position: sticky;
+  top: 0;
+  height: 100px;
+  padding: 5px;
+  font-size: 14px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+ }
+
+ #menu a {
+    position: relative;
+    text-decoration: none;
+    color: #A64646;
+    margin: 30px;
+    top: 30px;
+    font-family: 'Irish Grover', cursive;
+    font-size: 24px;
+ }
+
+
+
+ .quem {
+  font-family: 'Kolker Brush', cursive;
+  color: white;
+  font-size: 96px;
+ }
+
+ .sou {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 24px;
+  color: white;
+ }
+
+ #indicações {
+    font-family: 'Island Moments', sans-serif;
+  font-size: 96px;
+  height: 1200px;
+ }
+
+ .linha {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+ }
+
+  .linha2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+ }
+
+
+  .linha3 {
+    display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 80px;
+ }
+
+
+ .lado-a-lado {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  justify-content: center;
+   height: auto;
+  margin-top: -30px;
+}
+
+
+ .zoomtxt {
+  display: inline-block;         
+  background-color: #d4d2d2c5;     
+  padding: 5px 30px;             
+  margin: 0 90px;                
+  text-decoration: none;         
+  color: #000000;               
+  font-family: 'Just Another Hand', cursive; 
+  font-size: 60px;
+  border-radius: 5px;  
+ }
+
+ #galeria {
+  background-color: #768FA6;
+  background-image: url(../imagens/galeria.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 1050px;
+ }
+
+ .linha4 {
+     display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-end;
+ font-family: 'Just Another Hand', cursive;
+  font-size: 35px;
+ }
+
+ .gtxt {
+  font-family: 'Island Moments', sans-serif;
+  font-size: 96px;
+  color: white;
+ }
+
+ #desenvolvedor {
+    background-color: #000000;
+        width: auto;
+  height: 850px;
+  font-family:'Poiret One', sans-serif;
+  font-size: 30px;
+  color:#D1B34A;
+ }
+
+ .txt {
+  margin-top: 10px;
+  color: #D1B34A;
+ }
+
+ .eu {
+  border-radius: 50%;
+  margin-top: 10px;
+  border-style:solid;
+  border-color: #D1B34A;
+  border-width: 5px;
+ }
+
+ .final {
+  color: #D1B34A;
+  margin: auto;
+  padding: auto;
+  background-color: #000000;
+ }
+
+
+.zoomimg {
+  transition: transform 0.3s ease;
+  border-radius: 30px;
+}
+
+.zoomimg:hover {
+  transform: scale(1.2); 
+    display: inline-block;              
+}
+
+.zoomtxt {
+  transition: transform 0.3s ease;
+}
+
+.zoomtxt:hover {
+  transform: scale(1.2); 
+    display: inline-block;         
+  background-color:#D1B34A;     
+}
+
+.clicado{
+  display: inline-block;         
+  background-color:#D1B34A;     
+  padding: 5px 30px;             
+  margin: 0 90px;                
+  text-decoration: none;         
+  color: #000000;               
+  font-family: 'Just Another Hand', cursive; 
+  font-size: 60px;
+  border-radius: 5px;
+}
+
+.clicado {
+  transition: transform 0.3s ease;
+}
+
+.clicado:hover {
+  transform: scale(1.2); 
+    display: inline-block;         
+  background-color:#D1B34A;     
+}
+
